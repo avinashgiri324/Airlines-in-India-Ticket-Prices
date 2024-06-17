@@ -12,26 +12,26 @@ The analysis focuses on identifying and understanding key factors, such as the c
 ## Data Description:
 The dataset, cleaned and prepared for analysis, includes the following features:
 
-Airline: The name of the airline. There are six different airlines, making it a categorical trait.
+__Airline:__ The name of the airline. There are six different airlines, making it a categorical trait.
 
-Flight: The flight code of the aircraft.
+__Flight:__ The flight code of the aircraft.
 
-Source City: The city from which the flight departs, with six distinctive cities represented.
+__Source City:__ The city from which the flight departs, with six distinctive cities represented.
 
-Departure Time: A categorical feature indicating the time period of departure, binned into six different time labels.
+__Departure Time:__ A categorical feature indicating the time period of departure, binned into six different time labels.
 
-Stops: The number of stops between the source and destination cities, categorized into three different values.
+__Stops:__ The number of stops between the source and destination cities, categorized into three different values.
 
-Arrival Time: A categorical feature indicating the time period of arrival, binned into six different time labels.
+__Arrival Time:__ A categorical feature indicating the time period of arrival, binned into six different time labels.
 
-Destination City: The city where the flight lands, with six distinctive cities represented.
+__Destination City:__ The city where the flight lands, with six distinctive cities represented.
 
-Class: Indicates the travel class (e.g., economy, business).
+__Class:__ Indicates the travel class (e.g., economy, business).
 Duration: The total number of hours needed to travel between cities.
 
-Days Left: Derived feature calculated by subtracting the booking date from the trip date.
+__Days Left:__ Derived feature calculated by subtracting the booking date from the trip date.
 
-Price: The target variable storing information about the ticket price.
+__Price:__ The target variable storing information about the ticket price.
 
         
 ## Screenshots of Dashboard
@@ -43,13 +43,13 @@ Price: The target variable storing information about the ticket price.
  
 ## Insights Derived
 
-1- Airline Pricing by Class:
+__1- Airline Pricing by Class:__
 
 --Economy Class: 'Air Asia' offers the cheapest flight tickets.
 
 --Business Class: 'Air India' offers the cheapest flight tickets.
 
-2- Optimal Booking Window:
+__2- Optimal Booking Window:__
 
 --3-7 Weeks Before Travel: Booking tickets during this period is generally cheaper.
 
@@ -57,21 +57,21 @@ Price: The target variable storing information about the ticket price.
 
 --1 Day Before Travel: Tickets can be cheaper but not as cheap as when booked more than 3 weeks in advance.
 
-3- Ticket Price and Flight Duration:
+__3- Ticket Price and Flight Duration:__
 
 --Linear Growth: Ticket prices increase linearly with the duration of the flight, peaking at around 20 hours.
 
 --Outliers: Due to some outliers, prices may fall for flights with a duration of more than 20 hours. The relationship can be approximated by a 2nd-degree curve.
 
-4-Departure and Arrival Times:
+__4-Departure and Arrival Times__:
 
 --Cheapest Flights: Flights departing late at night and arriving early morning or late at night tend to be the cheapest.
 
-5-Number of Stops:
+__5-Number of Stops:__
 
 --Price Increase: Ticket prices increase with the number of stops.
 
-6-City-Specific Pricing:
+__6-City-Specific Pricing:__
 
 --Cheapest Flights: Delhi offers the cheapest flights.
 
